@@ -1,5 +1,5 @@
 <template>
-	<div class="moduleInfo"  v-on:click="showThis(result)">
+	<div class="moduleInfo"  v-on:click="showThis(result)" v-show="result.current">
 	<input type="text" v-model="result.width" />
 		<input type="text" v-model="result.height" />
 		<input type="text" v-model="result.background" />
